@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Team</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Softball Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="photos.html">PHOTOS</a></li>
+                     <li><a href="victory.html">VICTORY</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>THE BEST <span class="highlight">AND</span> PERFECT TEAM</h2>
+        <p>"Together we rise, turning dreams into victories—our legacy is just beginning."</p>                
+        <div class="illustration">
+            <img src="ICTeam.png" alt="Team Illustration">
+        </div>
+    </section>
+    <footer></footer>
+
+</body>
+</html>
+<style>
+    * {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-image: url('img-br.png');
+    background-size: cover;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 10%; 
+    height: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+    
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('img-br.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    image-rendering: crisp-edges;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+
+.hero .highlight {
+    color: Grey;
+    font-style: italic;
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 1.5vw;
+    color: white;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.illustration {
+    padding: 15px;
+}
+
+.illustration img {
+    max-width: 75%;
+
+    background: transparent;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+</style>

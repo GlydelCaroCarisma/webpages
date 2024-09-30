@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Team</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Softball Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html" class="active">ABOUT</a></li>
+                    <li><a href="photos.html">PHOTOS</a></li>
+                     <li><a href="victory.html">VICTORY</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about" class="section about-section">
+    <h2>About My Team and Journey</h2>
+    <p>
+        My journey in softball began as a simple hobby, but over time, it has become one of the most significant aspects of my life. From the very first time I stepped onto the field, I knew that softball was more than just a sport it was a passion that ignited something deeper in me. Throughout the years, I have learned not only the physical skills of the game but also the values of discipline, perseverance, and dedication. 
+        <br><br>
+        I am fortunate to be part of an incredible team, where each player brings their unique energy and commitment. We are not just teammates, but a family, bound together by our shared love for the game. Our time together whether it's during intense practice sessions, in the heat of competition, or off the field has built an unbreakable bond. We've faced countless challenges, from tough opponents to moments of doubt, but together we've found strength. Every win we celebrate and every loss we endure makes us stronger and pushes us to work harder.
+        <br><br>
+        Playing with this team has been a life-changing experience for me. It has taught me that success is not only measured by victories on the field but also by the friendships we forge and the lessons we learn along the way. We strive not only to be the best we can be as athletes but also as individuals who uplift and inspire each other. For me, softball is more than just a game; it is a journey filled with unforgettable moments, personal growth, and the unwavering support of my team.
+    </p>
+</section>
+
+<footer></footer>
+</body>
+</html>
+<style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-image: url('img-br.png');
+    background-size: cover;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 10%; 
+    height: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+    
+}
+    /* General section styling */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.about-section {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    border-radius: 2px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 75px;
+    margin-top: 0;
+}
+
+/* Heading styles */
+.about-section h2 {
+    font-size: 2.5vw;
+    margin-top: 0;
+    color: #e74c3c;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Paragraph styles */
+.about-section p {
+    font-size: 1.2vw;
+    text-align: justify;
+    line-height: 1.8;
+    color: #34495e;
+}
+
+/* Styling for line breaks */
+.about-section br {
+    margin-bottom: 15px;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .about-section h2 {
+        font-size: 2rem;
+    }
+
+    .about-section p {
+        font-size: 1rem;
+    }
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+</style>

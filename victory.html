@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Team</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Softball Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="photos.html">PHOTOS</a></li>
+                     <li><a href="victory.html"class="active">VICTORY</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="victory" class="section victory-section">
+        <h2>Victory</h2>
+        <p>Our journey is filled with memorable victories that define our passion and teamwork.</p>
+        <div class="victory-gallery">
+            <div class="victory-item">
+                <img src="victory1.jpg" alt="2023 Campus Hinampang">
+                <p><strong>2023 Campus Hinampang</strong><br>ICT Team defeated COE in the  3rd Match.</p>
+            </div>
+            <div class="victory-item">
+                <img src="victory2.jpeg" alt="2023 Campus Hinampang">
+                <p><strong>2023 Campus Hinampang</strong><br>Champion in Campus Hinampang.</p>
+            </div>
+            <div class="victory-item">
+                <img src="victory3.jpg" alt="2023 University Week">
+                <p><strong>2023 University Week-Lambunao Campus</strong><br>3rd Place in Overall Champion.</p>
+            </div>
+            <div class="victory-item">
+                <img src="victory4.jpg" alt="2023 University Week">
+                <p><strong>2023 University Week</strong><br>Conquered the toughest opponents to claim the title.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer></footer>
+</body>
+</html>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-image: url('img-br.png');
+    background-size: cover;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 10%; 
+    height: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+    
+}
+
+/* Victory Section Styling */
+.victory-section {
+    background-image: url('img-br.png');
+    background-size: cover;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+.victory-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.victory-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Victory Gallery Grid */
+.victory-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.victory-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for Images */
+.victory-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.victory-item p {
+    font-size: 1rem;
+    color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .victory-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .victory-section h2 {
+        font-size: 2rem;
+    }
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+</style>
